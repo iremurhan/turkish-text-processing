@@ -1,0 +1,47 @@
+# Ill-formed sentences from the assignment; each breaks one agreement constraint.
+
+# text = Ben arkadaşıma hediye aldın.
+# violation = subject-verb person
+1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+2	arkadaşıma	arkadaş	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	_	_	_	_
+3	hediye	hediye	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+4	aldın	al	VERB	_	Aspect=Perf|Number=Sing|Person=2|Polarity=Pos|Tense=Past	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Tarihi bir romanlar okudum.
+# violation = determiner-noun number
+1	Tarihi	tarihi	ADJ	_	_	_	_	_	_
+2	bir	bir	DET	_	Definite=Ind|PronType=Ind	_	_	_	_
+3	romanlar	roman	NOUN	_	Case=Nom|Number=Plur|Person=3	_	_	_	_
+4	okudum	oku	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Pos|Tense=Past	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Dün babama yardım edeceğim.
+# violation = tense
+1	Dün	dün	ADV	_	_	_	_	_	_
+2	babama	baba	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	_	_	_	_
+3	yardım	yardım	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+4	edeceğim	et	VERB	_	Aspect=Prosp|Number=Sing|Person=1|Polarity=Pos|Tense=Fut	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Ben okul gittim.
+# violation = verb frame
+1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+2	okul	okul	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+3	gittim	git	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Pos|Tense=Past	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Ben kitap okundu.
+# violation = voice
+1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+2	kitap	kitap	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+3	okundu	oku	VERB	_	Aspect=Perf|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Ben okulda gittim.
+# violation = verb frame
+1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+2	okulda	okul	NOUN	_	Case=Loc|Number=Sing|Person=3	_	_	_	_
+3	gittim	git	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Pos|Tense=Past	_	_	_	_
+4	.	.	PUNCT	_	_	_	_	_	_
+

@@ -1,0 +1,94 @@
+# Example sentences from the assignment, analysed by hand (lemma, UPOS, UD features).
+# Copulas (-dir, -ydı), the question particle (mı) and the relativiser (-ki) are separate words.
+
+# text = Dün arkadaşıma bir hediye aldım.
+1	Dün	dün	ADV	_	_	_	_	_	_
+2	arkadaşıma	arkadaş	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	_	_	_	_
+3	bir	bir	DET	_	Definite=Ind|PronType=Ind	_	_	_	_
+4	hediye	hediye	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+5	aldım	al	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Pos|Tense=Past	_	_	_	_
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Tarihi romanları keyifle okuyorum.
+1	Tarihi	tarihi	ADJ	_	_	_	_	_	_
+2	romanları	roman	NOUN	_	Case=Acc|Number=Plur|Person=3	_	_	_	_
+3	keyifle	keyifle	ADV	_	_	_	_	_	_
+4	okuyorum	oku	VERB	_	Aspect=Prog|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Ben dün akşam yemeği için anneme yardım ettim.
+1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	_	_	_	_
+2	dün	dün	ADV	_	_	_	_	_	_
+3	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+4	yemeği	yemek	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	_	_	_	_
+5	için	için	ADP	_	_	_	_	_	_
+6	anneme	anne	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	_	_	_	_
+7	yardım	yardım	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+8	ettim	et	VERB	_	Aspect=Perf|Number=Sing|Person=1|Polarity=Pos|Tense=Past	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Destanlar milli kültürümüzü ve tarihimizi anlatır.
+1	Destanlar	destan	NOUN	_	Case=Nom|Number=Plur|Person=3	_	_	_	_
+2	milli	milli	ADJ	_	_	_	_	_	_
+3	kültürümüzü	kültür	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	_	_	_	_
+4	ve	ve	CCONJ	_	_	_	_	_	_
+5	tarihimizi	tarih	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	_	_	_	_
+6	anlatır	anlat	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Yaz meyvelerinden karpuz bence en güzel meyvedir.
+1	Yaz	yaz	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+2	meyvelerinden	meyve	NOUN	_	Case=Abl|Number=Plur|Person=3	_	_	_	_
+3	karpuz	karpuz	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+4	bence	bence	ADV	_	_	_	_	_	_
+5	en	en	ADV	_	_	_	_	_	_
+6	güzel	güzel	ADJ	_	_	_	_	_	_
+7	meyve	meyve	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+8	dir	i	AUX	_	Number=Sing|Person=3|Tense=Pres	_	_	_	_
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Bu akşamki toplantıya katılacak mısınız?
+1	Bu	bu	DET	_	PronType=Dem	_	_	_	_
+2	akşam	akşam	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+3	ki	ki	ADP	_	_	_	_	_	_
+4	toplantıya	toplantı	NOUN	_	Case=Dat|Number=Sing|Person=3	_	_	_	_
+5	katılacak	katıl	VERB	_	Aspect=Prosp|Polarity=Pos|Tense=Fut	_	_	_	_
+6	mısınız	mı	AUX	_	Number=Plur|Person=2	_	_	_	_
+7	?	?	PUNCT	_	_	_	_	_	_
+
+# text = Bu ağacın altında her gece mehtabı izlerdik.
+1	Bu	bu	DET	_	PronType=Dem	_	_	_	_
+2	ağacın	ağaç	NOUN	_	Case=Gen|Number=Sing|Person=3	_	_	_	_
+3	altında	alt	ADP	_	Case=Loc	_	_	_	_
+4	her	her	DET	_	PronType=Tot	_	_	_	_
+5	gece	gece	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+6	mehtabı	mehtap	NOUN	_	Case=Acc|Number=Sing|Person=3	_	_	_	_
+7	izlerdik	izle	VERB	_	Aspect=Hab|Number=Plur|Person=1|Polarity=Pos|Tense=Past	_	_	_	_
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Siz buraya en son ne zaman geldiniz?
+1	Siz	siz	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	_	_	_	_
+2	buraya	bura	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Dem	_	_	_	_
+3	en	en	ADV	_	_	_	_	_	_
+4	son	son	ADJ	_	_	_	_	_	_
+5	ne	ne	DET	_	PronType=Int	_	_	_	_
+6	zaman	zaman	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+7	geldiniz	gel	VERB	_	Aspect=Perf|Number=Plur|Person=2|Polarity=Pos|Tense=Past	_	_	_	_
+8	?	?	PUNCT	_	_	_	_	_	_
+
+# text = Okul bizim köye epeyce uzaktaydı.
+1	Okul	okul	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+2	bizim	biz	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	_	_	_	_
+3	köye	köy	NOUN	_	Case=Dat|Number=Sing|Person=3	_	_	_	_
+4	epeyce	epeyce	ADV	_	_	_	_	_	_
+5	uzakta	uzak	ADJ	_	Case=Loc	_	_	_	_
+6	ydı	i	AUX	_	Number=Sing|Person=3|Tense=Past	_	_	_	_
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# text = Yüksek sesle müzik dinleme.
+1	Yüksek	yüksek	ADJ	_	_	_	_	_	_
+2	sesle	ses	NOUN	_	Case=Ins|Number=Sing|Person=3	_	_	_	_
+3	müzik	müzik	NOUN	_	Case=Nom|Number=Sing|Person=3	_	_	_	_
+4	dinleme	dinle	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	_	_	_	_
+5	.	.	PUNCT	_	_	_	_	_	_
+
